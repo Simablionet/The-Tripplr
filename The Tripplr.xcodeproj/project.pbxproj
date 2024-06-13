@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DDDBF212C1AFB210052734F /* The_TripplrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDBF202C1AFB210052734F /* The_TripplrApp.swift */; };
+		5DDDBF232C1AFB210052734F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDBF222C1AFB210052734F /* ContentView.swift */; };
+		5DDDBF252C1AFB220052734F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDDBF242C1AFB220052734F /* Assets.xcassets */; };
+		5DDDBF292C1AFB220052734F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDDBF282C1AFB220052734F /* Preview Assets.xcassets */; };
+		5DDDBF332C1AFB220052734F /* The_TripplrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDBF322C1AFB220052734F /* The_TripplrTests.swift */; };
+		5DDDBF3D2C1AFB220052734F /* The_TripplrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDBF3C2C1AFB220052734F /* The_TripplrUITests.swift */; };
+		5DDDBF3F2C1AFB220052734F /* The_TripplrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDBF3E2C1AFB220052734F /* The_TripplrUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DDDBF2F2C1AFB220052734F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DDDBF152C1AFB210052734F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DDDBF1C2C1AFB210052734F;
+			remoteInfo = "The Tripplr";
+		};
+		5DDDBF392C1AFB220052734F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DDDBF152C1AFB210052734F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DDDBF1C2C1AFB210052734F;
+			remoteInfo = "The Tripplr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DDDBF1D2C1AFB210052734F /* The Tripplr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Tripplr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDDBF202C1AFB210052734F /* The_TripplrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_TripplrApp.swift; sourceTree = "<group>"; };
+		5DDDBF222C1AFB210052734F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DDDBF242C1AFB220052734F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DDDBF262C1AFB220052734F /* The_Tripplr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Tripplr.entitlements; sourceTree = "<group>"; };
+		5DDDBF282C1AFB220052734F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DDDBF2E2C1AFB220052734F /* The TripplrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The TripplrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDDBF322C1AFB220052734F /* The_TripplrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_TripplrTests.swift; sourceTree = "<group>"; };
+		5DDDBF382C1AFB220052734F /* The TripplrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The TripplrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDDBF3C2C1AFB220052734F /* The_TripplrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_TripplrUITests.swift; sourceTree = "<group>"; };
+		5DDDBF3E2C1AFB220052734F /* The_TripplrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_TripplrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DDDBF1A2C1AFB210052734F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDDBF2B2C1AFB220052734F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDDBF352C1AFB220052734F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DDDBF142C1AFB210052734F = {
+			isa = PBXGroup;
+			children = (
+				5DDDBF1F2C1AFB210052734F /* The Tripplr */,
+				5DDDBF312C1AFB220052734F /* The TripplrTests */,
+				5DDDBF3B2C1AFB220052734F /* The TripplrUITests */,
+				5DDDBF1E2C1AFB210052734F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DDDBF1E2C1AFB210052734F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DDDBF1D2C1AFB210052734F /* The Tripplr.app */,
+				5DDDBF2E2C1AFB220052734F /* The TripplrTests.xctest */,
+				5DDDBF382C1AFB220052734F /* The TripplrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DDDBF1F2C1AFB210052734F /* The Tripplr */ = {
+			isa = PBXGroup;
+			children = (
+				5DDDBF202C1AFB210052734F /* The_TripplrApp.swift */,
+				5DDDBF222C1AFB210052734F /* ContentView.swift */,
+				5DDDBF242C1AFB220052734F /* Assets.xcassets */,
+				5DDDBF262C1AFB220052734F /* The_Tripplr.entitlements */,
+				5DDDBF272C1AFB220052734F /* Preview Content */,
+			);
+			path = "The Tripplr";
+			sourceTree = "<group>";
+		};
+		5DDDBF272C1AFB220052734F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DDDBF282C1AFB220052734F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DDDBF312C1AFB220052734F /* The TripplrTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DDDBF322C1AFB220052734F /* The_TripplrTests.swift */,
+			);
+			path = "The TripplrTests";
+			sourceTree = "<group>";
+		};
+		5DDDBF3B2C1AFB220052734F /* The TripplrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DDDBF3C2C1AFB220052734F /* The_TripplrUITests.swift */,
+				5DDDBF3E2C1AFB220052734F /* The_TripplrUITestsLaunchTests.swift */,
+			);
+			path = "The TripplrUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DDDBF1C2C1AFB210052734F /* The Tripplr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDDBF422C1AFB220052734F /* Build configuration list for PBXNativeTarget "The Tripplr" */;
+			buildPhases = (
+				5DDDBF192C1AFB210052734F /* Sources */,
+				5DDDBF1A2C1AFB210052734F /* Frameworks */,
+				5DDDBF1B2C1AFB210052734F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Tripplr";
+			productName = "The Tripplr";
+			productReference = 5DDDBF1D2C1AFB210052734F /* The Tripplr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DDDBF2D2C1AFB220052734F /* The TripplrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDDBF452C1AFB220052734F /* Build configuration list for PBXNativeTarget "The TripplrTests" */;
+			buildPhases = (
+				5DDDBF2A2C1AFB220052734F /* Sources */,
+				5DDDBF2B2C1AFB220052734F /* Frameworks */,
+				5DDDBF2C2C1AFB220052734F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DDDBF302C1AFB220052734F /* PBXTargetDependency */,
+			);
+			name = "The TripplrTests";
+			productName = "The TripplrTests";
+			productReference = 5DDDBF2E2C1AFB220052734F /* The TripplrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DDDBF372C1AFB220052734F /* The TripplrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDDBF482C1AFB220052734F /* Build configuration list for PBXNativeTarget "The TripplrUITests" */;
+			buildPhases = (
+				5DDDBF342C1AFB220052734F /* Sources */,
+				5DDDBF352C1AFB220052734F /* Frameworks */,
+				5DDDBF362C1AFB220052734F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DDDBF3A2C1AFB220052734F /* PBXTargetDependency */,
+			);
+			name = "The TripplrUITests";
+			productName = "The TripplrUITests";
+			productReference = 5DDDBF382C1AFB220052734F /* The TripplrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DDDBF152C1AFB210052734F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5DDDBF1C2C1AFB210052734F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5DDDBF2D2C1AFB220052734F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5DDDBF1C2C1AFB210052734F;
+					};
+					5DDDBF372C1AFB220052734F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5DDDBF1C2C1AFB210052734F;
+					};
+				};
+			};
+			buildConfigurationList = 5DDDBF182C1AFB210052734F /* Build configuration list for PBXProject "The Tripplr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DDDBF142C1AFB210052734F;
+			productRefGroup = 5DDDBF1E2C1AFB210052734F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DDDBF1C2C1AFB210052734F /* The Tripplr */,
+				5DDDBF2D2C1AFB220052734F /* The TripplrTests */,
+				5DDDBF372C1AFB220052734F /* The TripplrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DDDBF1B2C1AFB210052734F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDDBF292C1AFB220052734F /* Preview Assets.xcassets in Resources */,
+				5DDDBF252C1AFB220052734F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDDBF2C2C1AFB220052734F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDDBF362C1AFB220052734F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DDDBF192C1AFB210052734F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDDBF232C1AFB210052734F /* ContentView.swift in Sources */,
+				5DDDBF212C1AFB210052734F /* The_TripplrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDDBF2A2C1AFB220052734F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDDBF332C1AFB220052734F /* The_TripplrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDDBF342C1AFB220052734F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDDBF3F2C1AFB220052734F /* The_TripplrUITestsLaunchTests.swift in Sources */,
+				5DDDBF3D2C1AFB220052734F /* The_TripplrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DDDBF302C1AFB220052734F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DDDBF1C2C1AFB210052734F /* The Tripplr */;
+			targetProxy = 5DDDBF2F2C1AFB220052734F /* PBXContainerItemProxy */;
+		};
+		5DDDBF3A2C1AFB220052734F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DDDBF1C2C1AFB210052734F /* The Tripplr */;
+			targetProxy = 5DDDBF392C1AFB220052734F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DDDBF402C1AFB220052734F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DDDBF412C1AFB220052734F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5DDDBF432C1AFB220052734F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Tripplr/The_Tripplr.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Tripplr/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-OGBiker.The-Tripplr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DDDBF442C1AFB220052734F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "The Tripplr/The_Tripplr.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Tripplr/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-OGBiker.The-Tripplr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DDDBF462C1AFB220052734F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-OGBiker.The-TripplrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Tripplr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Tripplr";
+			};
+			name = Debug;
+		};
+		5DDDBF472C1AFB220052734F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-OGBiker.The-TripplrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Tripplr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Tripplr";
+			};
+			name = Release;
+		};
+		5DDDBF492C1AFB220052734F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-OGBiker.The-TripplrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Tripplr";
+			};
+			name = Debug;
+		};
+		5DDDBF4A2C1AFB220052734F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "The-OGBiker.The-TripplrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Tripplr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DDDBF182C1AFB210052734F /* Build configuration list for PBXProject "The Tripplr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDDBF402C1AFB220052734F /* Debug */,
+				5DDDBF412C1AFB220052734F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDDBF422C1AFB220052734F /* Build configuration list for PBXNativeTarget "The Tripplr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDDBF432C1AFB220052734F /* Debug */,
+				5DDDBF442C1AFB220052734F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDDBF452C1AFB220052734F /* Build configuration list for PBXNativeTarget "The TripplrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDDBF462C1AFB220052734F /* Debug */,
+				5DDDBF472C1AFB220052734F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDDBF482C1AFB220052734F /* Build configuration list for PBXNativeTarget "The TripplrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDDBF492C1AFB220052734F /* Debug */,
+				5DDDBF4A2C1AFB220052734F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DDDBF152C1AFB210052734F /* Project object */;
+}
